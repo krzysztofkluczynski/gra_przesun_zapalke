@@ -176,7 +176,7 @@ class Interface():
                 copy_of_levels.remove(current_level)
             else:
                 print("Wrong!")
-            playing_again = input("Do you want to play again? [y/n] ")
+            playing_again = input("Do you want to play again?[y/n] ")
             try:
                 if yes_or_no_answer(playing_again):
                     continue

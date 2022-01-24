@@ -17,6 +17,7 @@ def test_create_level():
     assert level.get_first_answer() == "1"
     assert level.get_second_answer() == "23"
     assert level.get_last_index() == 35
+    assert level.get_matches_to_move() == 0
 
 
 def test_check_correct_answers_easy():
@@ -37,6 +38,7 @@ def test_check_wrong_answers_easy():
         "2",
     )
     assert level_easy.check_if_correct("3", "4") is False
+    assert level_easy.check_if_correct("2", "1") is False
 
 
 def test_check_correct_answers_hard():
