@@ -1,0 +1,76 @@
+{
+    "built_in_levels": {
+      "easy": [
+        {
+          "equation": "2",
+          "task": "Move one match to make number three:",
+          "first_move": "2",
+          "second_move": "7"
+        },
+        {
+          "equation": "6",
+          "task": "Move one match to make number nine:",
+          "first_move": "2",
+          "second_move": "6"
+        },
+        {
+          "equation": "3",
+          "task": "Move one match to make number five:",
+          "first_move": "6",
+          "second_move": "1"
+        }
+      ],
+      "medium": [
+        {
+          "equation": "23+8=25",
+          "task": "Move one match to make the equation correct:",
+          "first_move": "20",
+          "second_move": "34"
+        },
+        {
+          "equation": "9-5=9",
+          "task": "Move one match to make the equation correct:",
+          "first_move": "15",
+          "second_move": "9"
+        },
+        {
+          "equation": "12+11=22",
+          "task": "Move one match to make the equation correct:",
+          "first_move": "37",
+          "second_move": "42"
+        },
+        {
+          "equation": "1+2-3=1",
+          "task": "Move one match to make the equation correct:",
+          "first_move": "21",
+          "second_move": "16"
+        }
+      ],
+      "hard": [
+        {
+          "equation": "9+6=16",
+          "task": "Move two matches to make the equation correct:",
+          "first_move": [
+            "9",
+            "23"
+          ],
+          "second_move": [
+            "2",
+            "27"
+          ]
+        },
+        {
+          "equation": "4*9=46",
+          "task": "Move two matches to make the equation correct:",
+          "first_move": [
+            "13",
+            "23"
+          ],
+          "second_move": [
+            "3",
+            "5"
+          ]
+        }
+      ]
+    }
+  }
